@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4469" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4469" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:41Z">
+      <class name="com.wunderlist.testCases.POST_Request">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="reportSetup" is-config="true" duration-ms="218" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="setup" is-config="true" duration-ms="26" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postRequest()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="postRequest" is-config="true" duration-ms="630" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="createListSuccess()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="createListSuccess" duration-ms="2726" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListSuccess -->
+        <test-method status="PASS" signature="createListWithInvalidTitle()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="createListWithInvalidTitle" duration-ms="1064" started-at="2019-10-31T13:27:40Z" finished-at="2019-10-31T13:27:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListWithInvalidTitle -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="reportTeardown" is-config="true" duration-ms="296" started-at="2019-10-31T13:27:41Z" finished-at="2019-10-31T13:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- com.wunderlist.testCases.POST_Request -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

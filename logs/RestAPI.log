@@ -1,0 +1,33 @@
+2019-10-31 15:20:39 INFO  WunderListAPI:16 - *****Started testcase OF List*****
+2019-10-31 15:20:40 INFO  WunderListAPI:23 - *****Verifying GET Request*****
+2019-10-31 15:20:43 INFO  WunderListAPI:26 - Status Code==> 200
+2019-10-31 15:20:43 INFO  WunderListAPI:33 - *****Verifying GET Request By ID*****
+2019-10-31 15:20:44 INFO  WunderListAPI:36 - Status Code==> 200
+2019-10-31 15:37:08 INFO  WunderListAPI:16 - *****Started testcase OF List*****
+2019-10-31 15:37:08 INFO  WunderListAPI:23 - *****Verifying GET Request*****
+2019-10-31 15:37:32 INFO  WunderListAPI:26 - Status Code==> 200
+2019-10-31 15:37:32 INFO  WunderListAPI:33 - *****Verifying GET Request By ID*****
+2019-10-31 15:37:33 INFO  WunderListAPI:36 - Status Code==> 200
+2019-10-31 16:04:49 INFO  WunderListAPI:16 - *****Started testcase OF List*****
+2019-10-31 16:04:49 INFO  WunderListAPI:23 - *****Verifying GET Request*****
+2019-10-31 16:04:51 INFO  WunderListAPI:26 - Status Code==> 200
+2019-10-31 16:04:51 INFO  WunderListAPI:33 - *****Verifying GET Request By ID*****
+2019-10-31 16:04:53 INFO  WunderListAPI:36 - Status Code==> 200
+2019-10-31 16:43:01 INFO  WunderListAPI:17 - *****Started testcase OF List*****
+2019-10-31 16:43:02 INFO  WunderListAPI:24 - *****Verifying GET Request*****
+2019-10-31 16:43:04 INFO  WunderListAPI:28 - Status Code==> 200
+2019-10-31 16:43:04 INFO  WunderListAPI:36 - *****Verifying GET Request By ID*****
+2019-10-31 16:43:06 INFO  WunderListAPI:40 - Status Code==> 200
+2019-10-31 18:54:14 INFO  WunderListAPI:25 - ***** Verifying Create List *****
+2019-10-31 18:54:17 INFO  WunderListAPI:38 - ***** Create List With Invalid Title*****
+2019-10-31 18:55:45 INFO  WunderListAPI:17 - *****Started testcase OF List*****
+2019-10-31 18:55:46 INFO  WunderListAPI:24 - *****Verifying GET Request*****
+2019-10-31 18:55:49 INFO  WunderListAPI:28 - Status Code==> 200
+2019-10-31 18:55:49 INFO  WunderListAPI:36 - *****Verifying GET Request By ID*****
+2019-10-31 18:55:50 INFO  WunderListAPI:40 - Status Code==> 200
+2019-10-31 18:56:26 INFO  WunderListAPI:25 - ***** Verifying Create List *****
+2019-10-31 18:56:29 INFO  WunderListAPI:38 - ***** Create List With Invalid Title*****
+2019-10-31 18:57:37 INFO  WunderListAPI:25 - ***** Verifying Create List *****
+2019-10-31 18:57:40 INFO  WunderListAPI:32 - Status Code==> 201
+2019-10-31 18:57:40 INFO  WunderListAPI:39 - ***** Create List With Invalid Title*****
+2019-10-31 18:57:41 INFO  WunderListAPI:47 - Status Code==> 422
