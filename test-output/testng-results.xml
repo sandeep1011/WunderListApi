@@ -1,37 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="8" total="18" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4469" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:41Z">
+  <suite name="Suite" duration-ms="24922" started-at="2019-11-01T13:45:53Z" finished-at="2019-11-01T13:46:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4469" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:41Z">
-      <class name="com.wunderlist.testCases.POST_Request">
-        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="reportSetup" is-config="true" duration-ms="218" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="setup" is-config="true" duration-ms="26" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
+    <test name="Test" duration-ms="24922" started-at="2019-11-01T13:45:53Z" finished-at="2019-11-01T13:46:18Z">
+      <class name="com.wunderlist.testCases.WunderList_Patch_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.WunderList_Patch_Request@490ab905]" name="setup" is-config="true" duration-ms="6" started-at="2019-11-01T13:46:03Z" finished-at="2019-11-01T13:46:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="postRequest()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="postRequest" is-config="true" duration-ms="630" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:37Z">
+        <test-method status="PASS" signature="putRequest()[pri:0, instance:com.wunderlist.testCases.WunderList_Patch_Request@490ab905]" name="putRequest" is-config="true" duration-ms="0" started-at="2019-11-01T13:46:03Z" finished-at="2019-11-01T13:46:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postRequest -->
-        <test-method status="PASS" signature="createListSuccess()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="createListSuccess" duration-ms="2726" started-at="2019-10-31T13:27:37Z" finished-at="2019-10-31T13:27:40Z">
+        </test-method> <!-- putRequest -->
+        <test-method status="PASS" signature="patchListWithInvalidRevision()[pri:0, instance:com.wunderlist.testCases.WunderList_Patch_Request@490ab905]" name="patchListWithInvalidRevision" duration-ms="1382" started-at="2019-11-01T13:46:03Z" finished-at="2019-11-01T13:46:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createListSuccess -->
-        <test-method status="PASS" signature="createListWithInvalidTitle()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="createListWithInvalidTitle" duration-ms="1064" started-at="2019-10-31T13:27:40Z" finished-at="2019-10-31T13:27:41Z">
+        </test-method> <!-- patchListWithInvalidRevision -->
+        <test-method status="PASS" signature="patchListWithRevison()[pri:0, instance:com.wunderlist.testCases.WunderList_Patch_Request@490ab905]" name="patchListWithRevison" duration-ms="3317" started-at="2019-11-01T13:46:04Z" finished-at="2019-11-01T13:46:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createListWithInvalidTitle -->
-        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:com.wunderlist.testCases.POST_Request@1a968a59]" name="reportTeardown" is-config="true" duration-ms="296" started-at="2019-10-31T13:27:41Z" finished-at="2019-10-31T13:27:42Z">
+        </test-method> <!-- patchListWithRevison -->
+      </class> <!-- com.wunderlist.testCases.WunderList_Patch_Request -->
+      <class name="com.wunderlist.testCases.WunderList_GET_Request">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="reportSetup" is-config="true" duration-ms="184" started-at="2019-11-01T13:45:53Z" finished-at="2019-11-01T13:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="setup" is-config="true" duration-ms="33" started-at="2019-11-01T13:45:53Z" finished-at="2019-11-01T13:45:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getRequest()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="getRequest" is-config="true" duration-ms="630" started-at="2019-11-01T13:45:53Z" finished-at="2019-11-01T13:45:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getRequest -->
+        <test-method status="PASS" signature="verifyGETRequest()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="verifyGETRequest" duration-ms="3077" started-at="2019-11-01T13:45:54Z" finished-at="2019-11-01T13:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGETRequest -->
+        <test-method status="PASS" signature="verifyGETRequestByID()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="verifyGETRequestByID" duration-ms="1288" started-at="2019-11-01T13:45:57Z" finished-at="2019-11-01T13:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGETRequestByID -->
+        <test-method status="PASS" signature="reportTeardown()[pri:0, instance:com.wunderlist.testCases.WunderList_GET_Request@3f49dace]" name="reportTeardown" is-config="true" duration-ms="312" started-at="2019-11-01T13:46:18Z" finished-at="2019-11-01T13:46:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTeardown -->
-      </class> <!-- com.wunderlist.testCases.POST_Request -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.wunderlist.testCases.WunderList_GET_Request -->
+      <class name="com.wunderlist.testCases.WunderList_DELETE_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.WunderList_DELETE_Request@27c20538]" name="setup" is-config="true" duration-ms="6" started-at="2019-11-01T13:46:12Z" finished-at="2019-11-01T13:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="deleteRequest()[pri:0, instance:com.wunderlist.testCases.WunderList_DELETE_Request@27c20538]" name="deleteRequest" is-config="true" duration-ms="1" started-at="2019-11-01T13:46:12Z" finished-at="2019-11-01T13:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRequest -->
+        <test-method status="PASS" signature="deleteListWithRevison()[pri:1, instance:com.wunderlist.testCases.WunderList_DELETE_Request@27c20538]" name="deleteListWithRevison" duration-ms="3469" started-at="2019-11-01T13:46:12Z" finished-at="2019-11-01T13:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListWithRevison -->
+        <test-method status="PASS" signature="deleteListWithInvalidRevison()[pri:2, instance:com.wunderlist.testCases.WunderList_DELETE_Request@27c20538]" name="deleteListWithInvalidRevison" duration-ms="2454" started-at="2019-11-01T13:46:16Z" finished-at="2019-11-01T13:46:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteListWithInvalidRevison -->
+      </class> <!-- com.wunderlist.testCases.WunderList_DELETE_Request -->
+      <class name="com.wunderlist.testCases.Wunderlist_PUT_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.Wunderlist_PUT_Request@56ac3a89]" name="setup" is-config="true" duration-ms="5" started-at="2019-11-01T13:46:07Z" finished-at="2019-11-01T13:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="putListWithInvalidRevision()[pri:0, instance:com.wunderlist.testCases.Wunderlist_PUT_Request@56ac3a89]" name="putListWithInvalidRevision" duration-ms="1391" started-at="2019-11-01T13:46:07Z" finished-at="2019-11-01T13:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putListWithInvalidRevision -->
+        <test-method status="PASS" signature="putRequest()[pri:0, instance:com.wunderlist.testCases.Wunderlist_PUT_Request@56ac3a89]" name="putRequest" is-config="true" duration-ms="0" started-at="2019-11-01T13:46:07Z" finished-at="2019-11-01T13:46:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putRequest -->
+        <test-method status="PASS" signature="putListWithRevison()[pri:0, instance:com.wunderlist.testCases.Wunderlist_PUT_Request@56ac3a89]" name="putListWithRevison" duration-ms="3525" started-at="2019-11-01T13:46:09Z" finished-at="2019-11-01T13:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putListWithRevison -->
+      </class> <!-- com.wunderlist.testCases.Wunderlist_PUT_Request -->
+      <class name="com.wunderlist.testCases.WunderList_POST_Request">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wunderlist.testCases.WunderList_POST_Request@1e397ed7]" name="setup" is-config="true" duration-ms="5" started-at="2019-11-01T13:45:58Z" finished-at="2019-11-01T13:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postRequest()[pri:0, instance:com.wunderlist.testCases.WunderList_POST_Request@1e397ed7]" name="postRequest" is-config="true" duration-ms="2" started-at="2019-11-01T13:45:58Z" finished-at="2019-11-01T13:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postRequest -->
+        <test-method status="PASS" signature="createListSuccess()[pri:0, instance:com.wunderlist.testCases.WunderList_POST_Request@1e397ed7]" name="createListSuccess" duration-ms="2645" started-at="2019-11-01T13:45:58Z" finished-at="2019-11-01T13:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListSuccess -->
+        <test-method status="PASS" signature="createListWithInvalidTitle()[pri:0, instance:com.wunderlist.testCases.WunderList_POST_Request@1e397ed7]" name="createListWithInvalidTitle" duration-ms="1644" started-at="2019-11-01T13:46:01Z" finished-at="2019-11-01T13:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createListWithInvalidTitle -->
+      </class> <!-- com.wunderlist.testCases.WunderList_POST_Request -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

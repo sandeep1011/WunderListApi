@@ -21,16 +21,18 @@ public class testBase {
 	public static Response response;
 	public String Id = "408410690";
 	public Logger logger;
-	ExtentHtmlReporter htmlReporter;
-	ExtentReports extent;
-	protected ExtentTest test;
+	public static ExtentReports extent = new ExtentReports();
+	public static ExtentHtmlReporter htmlReporter;
+
+	public static ExtentTest test;
 
 	@BeforeSuite
 	public void reportSetup() {
+
 		htmlReporter = new ExtentHtmlReporter("extent.html");
 		extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
-		test = extent.createTest("TestCases", "ExtentTestReport");
+
 	}
 
 	@AfterSuite

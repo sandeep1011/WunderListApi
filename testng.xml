@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.wunderlist.testCases.WunderList_GET_Request"/>
+      <class name="com.wunderlist.testCases.WunderList_POST_Request"/>
+      <class name="com.wunderlist.testCases.WunderList_Patch_Request"/>
+      <class name="com.wunderlist.testCases.Wunderlist_PUT_Request"/>
+      <class name="com.wunderlist.testCases.WunderList_DELETE_Request"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

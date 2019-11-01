@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.wunderlist.testCases.WunderList_Patch_Request">
+      <class name="com.wunderlist.testCases.WunderList_DELETE_Request">
         <methods>
           <include name="setup"/>
-          <include name="patchRequest"/>
-          <include name="patchList"/>
+          <include name="deleteListWithInvalidRevison"/>
+          <include name="deleteRequest"/>
           <include name="reportSetup"/>
           <include name="reportTeardown"/>
         </methods>
-      </class> <!-- com.wunderlist.testCases.WunderList_Patch_Request -->
+      </class> <!-- com.wunderlist.testCases.WunderList_DELETE_Request -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

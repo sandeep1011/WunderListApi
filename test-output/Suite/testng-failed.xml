@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wunderlist.testCases.WunderList_GET_Request">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyGETRequest"/>
+          <include name="getRequest"/>
+          <include name="verifyGETRequestByID"/>
+          <include name="reportSetup"/>
+          <include name="reportTeardown"/>
+        </methods>
+      </class> <!-- com.wunderlist.testCases.WunderList_GET_Request -->
+      <class name="com.wunderlist.testCases.WunderList_POST_Request">
+        <methods>
+          <include name="setup"/>
+          <include name="postRequest"/>
+          <include name="createListWithInvalidTitle"/>
+          <include name="reportSetup"/>
+          <include name="reportTeardown"/>
+          <include name="createListSuccess"/>
+        </methods>
+      </class> <!-- com.wunderlist.testCases.WunderList_POST_Request -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

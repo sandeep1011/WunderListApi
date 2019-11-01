@@ -5,13 +5,14 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.wunderlist.base.testBase;
 
 import io.restassured.http.Method;
 import io.restassured.response.Response;
 
-public class POST_Request extends testBase {
+public class WunderList_POST_Request extends testBase {
 	String titleName = "xmen";
 
 	@BeforeClass
@@ -22,6 +23,7 @@ public class POST_Request extends testBase {
 
 	@Test
 	void createListSuccess() {
+		final ExtentTest test = extent.createTest("POST Request 1", "Create List");
 		logger.info("***** Verifying Create List *****");
 		test.log(Status.INFO, "Create List Success");
 		final JSONObject requestParams = new JSONObject();
@@ -36,6 +38,7 @@ public class POST_Request extends testBase {
 
 	@Test
 	void createListWithInvalidTitle() {
+		final ExtentTest test = extent.createTest("POST Request 2", "Fail to create List");
 		logger.info("***** Create List With Invalid Title*****");
 		test.log(Status.INFO, "Fail in Creating List with Empty String in Title");
 		final JSONObject requestParams = new JSONObject();
